@@ -163,7 +163,7 @@ class Fonctions(QThread):
     def gen(self, input_text):
 
         client = Groq(
-            api_key="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",
+            api_key="your_groc_key",
         )
 
         try:
@@ -194,7 +194,7 @@ class Fonctions(QThread):
     def gen_email_response(self, input_text):
 
         client = Groq(
-            api_key="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",
+            api_key="your_groc_key",
         )
 
         try:
